@@ -8,3 +8,19 @@ if (isNaN(number)) {
 } else {
     console.log(`My number: ${number}`);  // لو رقم
 }
+
+node 5-to_integer.js
+# Not a number
+
+node 5-to_integer.js 89
+# My number: 89
+
+node 5-to_integer.js "89"
+# My number: 89
+
+node 5-to_integer.js 89.89
+# My number: 89
+
+node 5-to_integer.js School
+# Not a number
+
