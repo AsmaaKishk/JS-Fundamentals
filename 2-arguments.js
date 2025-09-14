@@ -1,21 +1,7 @@
-function greet() {
+if (args === 0) {
+  console.log('No argument');
+} else if (args === 1) {
+  console.log('Argument found');
+} else {
+  console.log('Arguments found');
 }
-
-
-
-console.log("No argument")
-
-function greet(name) {
-}
-
-
-
-console.log("Argument found")
-
-function greet(name, age, address) {
-}
-
-
-
-console.log("Arguments found")
-
