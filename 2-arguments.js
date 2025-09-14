@@ -1,8 +1,21 @@
-function greet(name) {
-  console.log("Hello, " + name + "!");
+function greet() {
 }
 
-greet("Asmaa");   // "Asmaa" هنا argument
-greet("Christena"); // "Christena" هنا argument
 
-console.log(...)
+
+console.log("No argument")
+
+function greet(name) {
+}
+
+
+
+console.log("Argument found")
+
+function greet(name, age, address) {
+}
+
+
+
+console.log("Arguments found")
+
